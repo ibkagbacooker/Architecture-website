@@ -28,7 +28,7 @@
                     <div class="nav__menu">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="#home" class="nav__link">
+                                <a href="#home" class="nav__link active-link">
                                     <i class='bx bx-home-alt-2'></i>
                                     <span>Home</span>
                                 </a>
@@ -61,7 +61,13 @@
                         </ul>
 
                     </div>
-                    <a href="#" class="button nav_button">subscribe</a>
+
+                    <!-- theme change button -->
+                    <i class="bx bx-moon change-theme" id ="theme-button">
+
+                    </i>
+
+                    <a href="#" class="button nav__button">subscribe</a>
                 
             </nav>
         </header>
@@ -70,7 +76,7 @@
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                 <div class="home__container container_grid">
+                 <div class="home__container container grid">
                     <div class = "home__data">
                         <h1 class = "home__title">
                             Discover <br> Most Suitable <br> Property
@@ -265,6 +271,7 @@
                         <div class="swiper-button-prev">
                             <i class='bx bx-chevron-left' ></i>
                         </div>
+
                     </div>
                 </div>
                 
@@ -280,7 +287,7 @@
                             <img src ="assets/img/value.jpg" alt="">
                         </div>
                     </div>
-                    <div class="value_content">
+                    <div class="value__content">
                         <div class="value__data">
                             <span class="section__subtitle">Our Value</span>
                             <h2 class="section__title">
@@ -634,7 +641,9 @@
 
 
         <!--========== SCROLL UP ==========-->
-
+        <a href ="#" class ="scrollup" id ="scroll-up">
+            <i class ='bx bx-chevrons-up'></i>
+        </a>
 
         <!--=============== SCROLLREVEAL ===============-->
         <script src="assets/js/scrollreveal.min.js"></script>
